@@ -2,42 +2,61 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Arial, sans-serif;
 }
 
 body {
-  background: #111;
-  color: #fff;
+  background: linear-gradient(180deg, #0f0f0f, #1a1a1a);
+  color: #f1f1f1;
   text-align: center;
 }
 
+/* TOPO */
 .topo {
-  background: #000;
-  padding: 30px 10px;
+  background: url("https://images.unsplash.com/photo-1503951914875-452162b0f3f1") center/cover no-repeat;
+  padding: 80px 20px;
 }
 
 .topo h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
+  letter-spacing: 2px;
 }
 
 .topo p {
-  font-size: 1.2rem;
-  color: #ccc;
+  font-size: 1.3rem;
+  margin-top: 10px;
+  color: #e0e0e0;
 }
 
+/* SEÇÕES */
 .info, .contato {
-  padding: 30px 20px;
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
 }
 
+.info h2,
+.contato h2 {
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+/* BOTÕES */
 .botao {
   display: inline-block;
-  margin: 10px;
-  padding: 15px 25px;
-  background: #25D366;
+  margin: 12px;
+  padding: 15px 30px;
+  background: #cfa14a;
   color: #000;
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: 50px;
   font-weight: bold;
+  transition: 0.3s;
+}
+
+.botao:hover {
+  transform: scale(1.05);
+  background: #e6b85c;
 }
 
 .botao.insta {
@@ -45,21 +64,27 @@ body {
   color: #fff;
 }
 
+.botao.insta:hover {
+  background: #f777a1;
+}
+
+/* ENDEREÇO */
 .endereco {
-  margin-top: 20px;
-  font-size: 0.95rem;
+  margin-top: 25px;
+  font-size: 1rem;
   color: #ccc;
 }
 
-/* WhatsApp fixo */
+/* WHATSAPP FIXO */
 .whatsapp-fixo {
   position: fixed;
   bottom: 20px;
   right: 20px;
   background: #25D366;
   color: #000;
-  font-size: 24px;
-  padding: 15px;
+  font-size: 26px;
+  padding: 16px;
   border-radius: 50%;
   text-decoration: none;
+  box-shadow: 0 0 15px rgba(37, 211, 102, 0.6);
 }

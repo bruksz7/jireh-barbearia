@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #111;
+  color: #fff;
+  text-align: center;
+}
+
+.topo {
+  background: #000;
+  padding: 30px 10px;
+}
+
+.topo h1 {
+  font-size: 2.5rem;
+}
+
+.topo p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+.info, .contato {
+  padding: 30px 20px;
+}
+
+.botao {
+  display: inline-block;
+  margin: 10px;
+  padding: 15px 25px;
+  background: #25D366;
+  color: #000;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.botao.insta {
+  background: #E1306C;
+  color: #fff;
+}
+
+.endereco {
+  margin-top: 20px;
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+/* WhatsApp fixo */
+.whatsapp-fixo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: #000;
+  font-size: 24px;
+  padding: 15px;
+  border-radius: 50%;
+  text-decoration: none;
+}
